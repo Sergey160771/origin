@@ -25,11 +25,12 @@ void CreateArrayLessThanEqualThreeCharacters(string[] array, string[] array1)
 }
 void PrintArray(string[] array)
 {
+Console.Write("[");   
     for (int i = 0; i < array1.Length; i++)
     {
-        Console.Write($" {array1[i]} ");
+        Console.Write($" {array1[i]}");
     }
-
+Console.Write("]");
 }
 CreateArrayLessThanEqualThreeCharacters(array, array1);
 Console.WriteLine();
